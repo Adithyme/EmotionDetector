@@ -28,3 +28,21 @@ The application is structured as a Python package and deployed using Flask.
 ---
 
 ## 🗂 Project Structure
+
+EmotionDetector/
+│
+├── EmotionDetection/
+│ ├── init.py
+│ └── emotion_detection.py
+│
+├── server.py
+├── test_emotion_detection.py
+└── README.md
+
+
+---
+
+## 🧪 Run Unit Tests
+
+```bash
+python -m unittest test_emotion_detection.py
